@@ -1,0 +1,180 @@
+body{
+	background: url(../img/background.png) repeat;
+}
+
+h1, h2, h3, h4, h5{
+	
+	color: #FBB25A;
+	text-shadow: 2px 2px 2px #000;
+}
+
+hr{
+	margin-top:20px;
+	margin-bottom:20px;
+	border:0;
+	border-top:1px solid #7A8288;
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu {
+	display: block;
+}
+
+h1 a{
+	display: inline-block;
+	background: url('../img/darth_vader.jpg') no-repeat;
+	height: 101px;
+	padding: 20px 0 0 90px;
+	color: black;
+}
+
+h1 a:hover{
+	text-decoration: none;
+	color: black;
+}
+
+h1, h2, h3{
+	font-family: sans-serif;
+}
+
+p.pubdate {
+	font-style: italic;
+	font-size: 0.9em;
+}
+
+#sidebar{
+	background: #EAEAEA;
+}
+
+#sidebar ul{
+	list-style: none;
+	margin-left: 0px;
+}
+
+#sidebar ul li{
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+#sidebar h1{
+	font-size: 25px;
+	text-decoration: underline;
+}
+
+#sidebar h2, h3{
+	font-size: 20px;
+}
+
+.gold{
+	color: #FBB25A;
+}
+
+footer{
+	position: relative;
+	background: url(../img/footer.jpg)repeat;
+	/*height: 200px;*/
+	bottom: 0%;
+	color: #7A8288;
+	padding: 0px 0px 20px 0px;
+	margin-bottom: 0px;
+	
+}
+
+footer a{
+	margin: 0px 0px;
+	color: #7A8288;
+	font-weight: bold;
+}
+
+footer a:hover{
+	color: #FBB25A;	
+}
+
+footer .col-xs-5 ul{
+	margin-left: 0px;
+	font-size: 12px;
+	list-style: none;
+}
+
+#login-modal.modal{
+	position: relative;
+	display: block;
+}
+
+#myNav .navbar-inverse{
+	background-color: -webkit-linear-gradient(#210c02, #52250a 60%, #52250a);
+}
+
+.col-md-9 span.glyphicon.glyphicon-file{
+	display: none;
+}
+
+
+.sidebar.col-md-3 ul{
+	opacity: 0.9;
+	position: relative;
+	left: 0px;
+	list-style: none;
+}
+
+
+.sidebar.col-md-3 a{
+	color: #FBB25A;	
+}
+
+.sidebar.col-md-3 ul li{
+	margin-left: 0px;
+	position: relative;
+	left: -5px;
+}
+
+.sidebar.col-md-3 h1, .sidebar.col-md-3 h2, .sidebar.col-md-3 h3, .sidebar.col-md-3 h4{
+	position: relative;
+	left: -20px;
+	margin-left: 0px;
+	padding: 0px;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.sidebar.col-md-3 img{
+	position: relative;
+	left: -15px;
+}
+
+.sidebar.col-md-3 p{
+	font-size: 12px;
+}
+
+.sidebar.col-md-3 span.glyphicon.glyphicon-file{	
+	font-size: 20px;
+	float: left;
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+	top: 5px;
+	left: -40px;
+}
+
+.table.contactUsTable{
+	table-layout: fixed;
+	background: none;
+	width: 100%;
+}
+
+.table.contactUsTable td{
+	padding: 5px 0px;
+	margin: 5px 0px;
+	width: 100%;
+}
+
+.table.contactUsTable tr{
+	border-top: 1px solid #FBB25A;
+}
+
+.table.contactUsTable td:nth-child(1){
+	/*border: 1px solid white;*/
+	text-align: right;
+	padding: 5px 5px 5px 0px;
+	margin: 5px 5px;
+	width: 30%;
+}
